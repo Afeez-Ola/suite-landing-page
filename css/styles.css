@@ -239,4 +239,31 @@ a {
  letter-spacing: 2.5px;
 }
 
+footer {
+ background-color: var(--cream);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
 
+.footer_container {
+ padding: 4rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 2rem;
+ width: 65%;
+}
+
+.footer_container p {
+ font-size: 0.9rem;
+ letter-spacing: 0.08px;
+ color: var(--grey);
+}
+
+.social_icons {
+ display: flex;
+ justify-content: space-around;
+ width: 100%;
+}
