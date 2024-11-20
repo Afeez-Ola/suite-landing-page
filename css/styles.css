@@ -1,84 +1,146 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
-  --dark-blue:#172339;
-  --grey: #49566D;
-  --cream: #F3EDE7;
-  --cream-white: #FAF8F6;
-  --light-purple: #A060FF;
-  --indigo: #CB30E3;
-  --orange: #FFA84E;
+:root {
+ --dark-blue: #172339;
+ --grey: #49566d;
+ --cream: #f3ede7;
+ --cream-white: #faf8f6;
+ --light-purple: #a060ff;
+ --indigo: #cb30e3;
+ --orange: #ffa84e;
 }
 
-.heading_xl{
-  font-size: 74px;
-  line-height: 78px;
-  letter-spacing: -1px;
+.heading_xl {
+ font-size: 74px;
+ line-height: 78px;
+ letter-spacing: -1px;
 }
-.heading_l{
-  font-size: 48px;
-  line-height: 56px;
-  letter-spacing: -0.5px;
+.heading_l {
+ font-size: 48px;
+ line-height: 56px;
+ letter-spacing: -0.5px;
 }
-.heading_m{
-  font-size: 18px;
-  line-height: 32px;
-  letter-spacing: -0.2px;
-  font-weight: bold;
+.heading_m {
+ font-size: 18px;
+ line-height: 32px;
+ letter-spacing: -0.2px;
+ font-weight: bold;
 }
-.heading_s{
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: -2.5px;
-  font-weight: bold;
-}
-
-.quote{
-  font-size: 20px;
-  line-height: 35;
-  letter-spacing: 0px;
-  font-weight: bold;
+.heading_s {
+ font-size: 16px;
+ line-height: 26px;
+ letter-spacing: -2.5px;
+ font-weight: bold;
 }
 
+.quote {
+ font-size: 20px;
+ line-height: 35;
+ letter-spacing: 0px;
+ font-weight: bold;
+}
 
-*, *::before, *::after {
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
 }
 
 * {
-  margin: 0;
+ margin: 0;
 }
 
 body {
-  font-family: "Epilogue", sans-serif;
+ font-family: 'Epilogue', sans-serif;
 
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  font-size: 18px;
-  line-height: 32px;
-  letter-spacing: 0px;
+ line-height: 1.5;
+ -webkit-font-smoothing: antialiased;
+ font-size: 18px;
+ line-height: 32px;
+ letter-spacing: 0px;
 }
 
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
+img,
+picture,
+video,
+canvas,
+svg {
+ display: block;
+ max-width: 100%;
 }
 
-input, button, textarea, select {
-  font: inherit;
+input,
+button,
+textarea,
+select {
+ font: inherit;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ overflow-wrap: break-word;
 }
 
 p {
-  text-wrap: pretty;
+ text-wrap: pretty;
 }
-h1, h2, h3, h4, h5, h6 {
-  text-wrap: balance;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ text-wrap: balance;
 }
 
-#root, #__next {
-  isolation: isolate;
+#root,
+#__next {
+ isolation: isolate;
+}
+
+a {
+ text-decoration: none;
+}
+
+/* My code */
+
+.nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1rem;
+}
+
+.nav a {
+ padding: 0.5rem;
+ font-size: 0.8rem;
+ font-weight: bold;
+ color: var(--dark-blue);
+ border: 1px solid var(--dark-blue);
+ border-radius: 0.4rem;
+}
+
+.hero_section {
+ padding: 1rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-block: 2rem;
+}
+
+.hero_note {
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ gap: 2rem;
+}
+
+.hero_note h2{
+  font-weight: normal;
+  font-size: 38px;
 }
