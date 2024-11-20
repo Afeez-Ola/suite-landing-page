@@ -131,12 +131,12 @@ a {
  flex-direction: column;
  justify-content: center;
  margin-block: 2rem;
+ gap: 4rem;
 }
 
 .hero_note {
  display: flex;
  flex-direction: column;
- width: 100%;
  gap: 2rem;
 }
 
@@ -154,4 +154,15 @@ a {
 
 .hero_note p{
   font-size: 16px;
+}
+
+.hero_note a{
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--cream-white);
+  background-color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
+  border-radius: 0.4rem;
+  padding: 1rem;
+  width: 60%;
 }
