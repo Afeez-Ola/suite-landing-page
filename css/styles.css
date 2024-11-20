@@ -167,6 +167,7 @@ a {
  width: 60%;
 }
 
+
 .hero_image img {
  width: 100%;
 }
@@ -267,4 +268,18 @@ footer {
  display: flex;
  justify-content: space-around;
  width: 100%;
+}
+
+
+@media screen and (min-width: 40rem) {
+
+  .hero_section{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .hero_image img{
+    width: 60%;
+    margin: auto;
+  }
 }
