@@ -143,4 +143,15 @@ a {
 .hero_note h2{
   font-weight: normal;
   font-size: 38px;
+  line-height: 1.2;
+ letter-spacing: -0.5px;
+
+}
+
+.hero_note h2 .h2_bold{
+  font-weight: bold;
+}
+
+.hero_note p{
+  font-size: 16px;
 }
