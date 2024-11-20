@@ -132,6 +132,7 @@ a {
  justify-content: center;
  margin-block: 2rem;
  gap: 4rem;
+ padding-bottom: 12rem;
 }
 
 .hero_note {
