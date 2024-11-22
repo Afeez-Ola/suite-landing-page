@@ -141,22 +141,29 @@ a {
  gap: 2rem;
 }
 
-.hero_note h2 {
+.hero_texts {
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ margin-bottom: 2rem;
+}
+
+.hero_texts h2 {
  font-weight: normal;
  font-size: 38px;
  line-height: 1.2;
  letter-spacing: -0.5px;
 }
 
-.hero_note h2 .h2_bold {
+.hero_texts h2 .h2_bold {
  font-weight: bold;
 }
 
-.hero_note p {
+.hero_texts p {
  font-size: 16px;
 }
 
-.hero_note a {
+.hero_texts a {
  font-size: 18px;
  font-weight: bold;
  color: var(--cream-white);
@@ -166,7 +173,6 @@ a {
  padding: 1rem;
  width: 60%;
 }
-
 
 .hero_image img {
  width: 100%;
@@ -270,33 +276,15 @@ footer {
  width: 100%;
 }
 
-
 @media screen and (min-width: 40rem) {
-
-  .hero_section{
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0;
-    /* justify-content: flex-start; */
-  }
-  .hero_image img{
-    width: 100%;
-    margin: auto;
-  }
-  .hero_item:nth-child(1){
-    flex: 1 1 70%; 
-  max-width: 50%; 
-  padding: 10px;
-  text-align: center;
-  }
-  .hero_item:nth-child(2){
-    flex: 1 1 30%; 
-  max-width: 50%; 
-  padding: 10px;
-  text-align: center;
-  }
-  .hero_item:nth-child(3) {
-  flex: 1 1 100%; /* Take up the full width on the next line */
-  max-width: 100%;
-}
+ .hero_section {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0;
+  /* justify-content: flex-start; */
+ }
+ .hero_image img {
+  width: 100%;
+  margin: auto;
+ }
 }
