@@ -141,8 +141,8 @@ a {
  gap: 2rem;
  background-image: url('../assets/pattern-curved-line-1.svg');
  background-repeat: no-repeat;
- background-size: 9.4375rem 1.1875rem;
- background-position: top right 2.3456rem;
+ background-size: 40%;
+ background-position: top right 4.8456rem;
  padding-top: 2rem;
 }
 
@@ -290,6 +290,8 @@ footer {
  .hero_note {
   flex-direction: row;
   position: relative;
+ background-position: 0;
+
  }
  .hero_texts {
   gap: 2.5rem;
