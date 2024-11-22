@@ -148,14 +148,14 @@ a {
  margin-bottom: 2rem;
 }
 
-.hero_texts h2 {
+.hero_texts h1 {
  font-weight: normal;
  font-size: 38px;
  line-height: 1.2;
  letter-spacing: -0.5px;
 }
 
-.hero_texts h2 .h2_bold {
+.hero_texts h1 .h1_bold {
  font-weight: bold;
 }
 
@@ -277,14 +277,36 @@ footer {
 }
 
 @media screen and (min-width: 40rem) {
- .hero_section {
+
+  .nav{
+    margin-bottom: 7rem;
+    width: 80%;
+    margin: auto;
+  }
+ .hero_note {
   flex-direction: row;
-  flex-wrap: wrap;
-  gap: 0;
-  /* justify-content: flex-start; */
+  position: relative;
  }
- .hero_image img {
+ .hero_texts {
+  gap: 2.5rem;
+  min-height: 27.4575rem;
   width: 100%;
-  margin: auto;
+ }
+
+ .hero_texts h1 {
+  margin-top: 2.8325rem;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  letter-spacing: -0.778px;
+ }
+
+ .hero_texts a{
+  max-width: 16rem;
+ }
+ picture {
+  position: absolute;
+  z-index: -1;
+  top: -4.6675rem;
+  right: 3rem;
  }
 }
