@@ -218,6 +218,9 @@ a {
  position: relative;
  bottom: 7rem;
 }
+.patter_image_2 img {
+ margin: auto;
+}
 
 .review_notes {
  display: flex;
@@ -352,16 +355,45 @@ footer {
   width: 100%;
  }
 
- .social_icons{
+ .social_icons {
   width: 10rem;
  }
 }
 
 @media screen and (min-width: 55rem) {
-  .hero_section{
-    flex-direction: row;
-  }
-  .metric{
-    flex-direction: column;
-  }
+ .hero_section {
+  flex-direction: row;
+ }
+ .metric {
+  flex-direction: column;
+ }
+
+ .patter_image_2 img {
+  display: none;
+ }
+
+ .review_section {
+  background-image: url('../assets/pattern-curved-line-2.svg');
+  background-repeat: no-repeat;
+  background-size: 3.0812rem 2.5rem;
+  background-position: top 7.3125rem center;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+
+ .review_contents {
+  text-align: left;
+  width: 20rem;
+  margin-left: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+ }
+
+ .review_notes,
+ .reviewer,
+ .review_image {
+  position: relative;
+  bottom: 0rem;
+ }
 }
