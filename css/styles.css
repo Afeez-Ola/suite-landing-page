@@ -288,21 +288,18 @@ footer {
   margin: auto;
  }
 
- .hero_section{
+ .hero_section {
   gap: 10rem;
-  padding-bottom: 4rem;
+  padding-bottom: 0m;
  }
  .hero_note {
   flex-direction: row;
   position: relative;
   background-position: top 2rem right 16.8456rem;
-          min-height: 27.4575rem;
-
+  min-height: 27.4575rem;
  }
  .hero_texts {
   gap: 2.5rem;
-  /* min-height: 27.4575rem; */
-  /* width: 100%; */
   padding: 1rem;
  }
 
@@ -313,7 +310,7 @@ footer {
   letter-spacing: -0.778px;
  }
 
- .hero_texts p{
+ .hero_texts p {
   max-width: 21.875rem;
  }
 
@@ -327,25 +324,25 @@ footer {
   right: 3rem;
  }
 
- .metric{
+ .metric {
   flex-direction: row;
   justify-content: space-around;
  }
 
- .review_section{
-      top: 10rem;
-    position: relative;
-    border-radius: 2rem;
-    margin: auto;
-    width: 80%;
+ .review_section {
+  top: 20rem;
+  position: relative;
+  border-radius: 2rem;
+  margin: auto;
+  width: 80%;
  }
 
- .footer{
+ .footer_section {
   width: 100%;
-    padding-block: 30rem 2rem;
-    z-index: 1;
-    min-height: 40rem;
-    position: absolute;
-    z-index: -1;
+  padding-block: 30rem 2rem;
+  z-index: 1;
+  min-height: 40rem;
+  position: absolute;
+  z-index: -1;
  }
 }
