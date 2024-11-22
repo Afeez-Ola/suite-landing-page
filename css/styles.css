@@ -290,7 +290,7 @@ footer {
 
  .hero_section {
   gap: 10rem;
-  padding-bottom: 0m;
+  padding-bottom: 0rem;
  }
  .hero_note {
   flex-direction: row;
@@ -345,4 +345,23 @@ footer {
   position: absolute;
   z-index: -1;
  }
+
+ .footer_container {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+ }
+
+ .social_icons{
+  width: 10rem;
+ }
+}
+
+@media screen and (min-width: 55rem) {
+  .hero_section{
+    flex-direction: row;
+  }
+  .metric{
+    flex-direction: column;
+  }
 }
