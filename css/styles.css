@@ -200,6 +200,10 @@ a {
 
 .review_section {
  background-color: var(--dark-blue);
+ background-image: url('../assets/pattern-curved-line-2.svg');
+  background-repeat: no-repeat;
+  background-size: 3.0812rem 2.5rem;
+  background-position: top 16.3125rem center;
  color: var(--cream);
  display: flex;
  flex-direction: column;
@@ -344,7 +348,7 @@ footer {
   width: 100%;
   padding-block: 30rem 2rem;
   z-index: 1;
-  min-height: 40rem;
+  height: 40rem;
   position: absolute;
   z-index: -1;
  }
@@ -391,9 +395,20 @@ footer {
  }
 
  .review_notes,
- .reviewer,
- .review_image {
+ .reviewer {
   position: relative;
   bottom: 0rem;
+ }
+
+ .review_image{
+  bottom: 3rem;
+ }
+
+ .footer_section{
+  /* padding: 0; */
+  height: 10rem;
+  margin-bottom: 3rem;
+    padding-inline: 4rem;
+    padding-bottom: 6rem;
  }
 }
