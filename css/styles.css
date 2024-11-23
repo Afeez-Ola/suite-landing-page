@@ -105,6 +105,7 @@ h6 {
 
 a {
  text-decoration: none;
+ cursor: pointer;
 }
 
 /* My code */
@@ -123,6 +124,11 @@ a {
  color: var(--dark-blue);
  border: 1px solid var(--dark-blue);
  border-radius: 0.4rem;
+}
+
+.nav a:active {
+ color: var(--cream-white);
+ background-color: var(--dark-blue);
 }
 
 .hero_section {
@@ -176,7 +182,17 @@ a {
  border: 1px solid var(--dark-blue);
  border-radius: 0.4rem;
  padding: 1rem;
- width: 60%;
+ width: 70%;
+}
+
+.hero_texts a:active {
+ background: linear-gradient(
+  to right,
+  var(--light-purple) 0%,
+  var(--indigo) 33%,
+  var(--orange) 100%
+ );
+ border-color: inherit;
 }
 
 .hero_image img {
@@ -201,9 +217,9 @@ a {
 .review_section {
  background-color: var(--dark-blue);
  background-image: url('../assets/pattern-curved-line-2.svg');
-  background-repeat: no-repeat;
-  background-size: 3.0812rem 2.5rem;
-  background-position: top 16.3125rem center;
+ background-repeat: no-repeat;
+ background-size: 3.0812rem 2.5rem;
+ background-position: top 16.3125rem center;
  color: var(--cream);
  display: flex;
  flex-direction: column;
@@ -286,6 +302,11 @@ footer {
  display: flex;
  justify-content: space-around;
  width: 100%;
+}
+
+.social_icons img:active {
+ box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+ background-color: rgba(255, 255, 255, 0.25);
 }
 
 @media screen and (min-width: 40rem) {
@@ -400,14 +421,14 @@ footer {
   bottom: 0rem;
  }
 
- .review_image{
+ .review_image {
   bottom: 3rem;
  }
 
- .footer_section{
+ .footer_section {
   height: 10rem;
   margin-bottom: 3rem;
-    padding-inline: 4rem;
-    padding-bottom: 6rem;
+  padding-inline: 4rem;
+  padding-bottom: 6rem;
  }
 }
