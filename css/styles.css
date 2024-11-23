@@ -243,10 +243,10 @@ a {
 }
 
 .review_contents {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
- }
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+}
 
 .review_notes {
  display: flex;
@@ -393,8 +393,15 @@ footer {
 }
 
 @media screen and (min-width: 55rem) {
+ .nav {
+  width: 80%;
+ }
  .hero_section {
   flex-direction: row;
+  justify-content: flex-start;
+  width: 80%;
+  margin-inline: auto;
+  margin-top: 4rem;
  }
  .metric {
   flex-direction: column;
@@ -436,6 +443,6 @@ footer {
   height: 10rem;
   margin-bottom: 3rem;
   padding-inline: 4rem;
-  padding-bottom: 6rem;
+  padding-bottom: 15rem;
  }
 }
