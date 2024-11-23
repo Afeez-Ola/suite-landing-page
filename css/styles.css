@@ -242,6 +242,12 @@ a {
  margin: auto;
 }
 
+.review_contents {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+ }
+
 .review_notes {
  display: flex;
  flex-direction: column;
@@ -305,8 +311,9 @@ footer {
 }
 
 .social_icons img:active {
- box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
- background-color: rgba(255, 255, 255, 0.25);
+ cursor: pointer;
+ filter: invert(54%) sepia(6%) saturate(380%) hue-rotate(186deg) brightness(97%)
+  contrast(88%);
 }
 
 @media screen and (min-width: 40rem) {
