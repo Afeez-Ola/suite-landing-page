@@ -9,8 +9,8 @@ This is a solution to the [Suite landing page challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Afeez-Ola/equalizer-landing-page)
-- Live Site URL: [Add live site URL here](https://equalizer-landing-page-five-woad.vercel.app/)
+- Solution URL: [Add solution URL here](https://github.com/Afeez-Ola/suite-landing-page)
+- Live Site URL: [Add live site URL here](https://suite-landing-page-chi.vercel.app/)
 
 ## My process
 
